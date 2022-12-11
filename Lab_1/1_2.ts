@@ -1,10 +1,3 @@
-enum Category {
-  BA = "Business analyst",
-  DEVELOPER = "Developer",
-  DESIGNER = "Designer",
-  QA = "QA",
-  SCRUM = "Scrum master",
-}
 
 type workerCategory =
   | "Business analyst"
@@ -13,6 +6,13 @@ type workerCategory =
   | "QA"
   | "Scrum master";
 
+enum Category {
+  BA = "Business analyst",
+  DEVELOPER = "Developer",
+  DESIGNER = "Designer",
+  QA = "QA",
+  SCRUM = "Scrum master",
+}
 interface IWorkers {
   name: string;
   surname: string;

@@ -1,3 +1,10 @@
+type workerCategory =
+  | "Business analyst"
+  | "Developer"
+  | "Designer"
+  | "QA"
+  | "Scrum master";
+  
 const createCustomer = function (
   name: string,
   age?: number,
@@ -22,12 +29,6 @@ enum Category {
   SCRUM = "Scrum master",
 }
 
-type workerCategory =
-  | "Business analyst"
-  | "Developer"
-  | "Designer"
-  | "QA"
-  | "Scrum master";
 
 interface IWorkers {
   name: string;

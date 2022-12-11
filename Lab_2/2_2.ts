@@ -26,4 +26,4 @@ function prizeLogger(prize: string): void {
 }
 
 logPrize = prizeLogger;
-logPrize("PC");
+logPrize("200");
