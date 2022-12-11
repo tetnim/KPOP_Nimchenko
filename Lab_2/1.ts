@@ -84,7 +84,7 @@ console.log(
 );
 console.log();
 
-console.log("Print worker:");
+console.log("Print worker:"); 
 PrintWorker(workers[1]);
 
 console.log(
