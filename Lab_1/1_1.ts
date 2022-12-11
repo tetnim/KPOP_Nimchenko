@@ -3,8 +3,9 @@ interface IWorkers {
   surname: string;
   available: boolean;
   salary: number;
+  
 }
-
+ 
 const getAllworkers = function (): IWorkers[] {
   let workers: IWorkers[] = [
     { name: "Ivan", surname: "Ivanov", available: true, salary: 1000 },
